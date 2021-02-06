@@ -1,0 +1,28 @@
+.container{
+    margin-left: 450px;
+}
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.countryDiv{
+    border: 1px solid purple;
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+}
+.countryName{
+    color: blue;
+    font-size: 40px;
+}
+#countryDetailsDiv{
+    border: 2px double red;
+    border-radius: 10px;
+    text-align: center;
+    width: 500px;
+    margin: 10px;
+}
+#countryDetailsDiv img{
+    width: 370px;
+}
